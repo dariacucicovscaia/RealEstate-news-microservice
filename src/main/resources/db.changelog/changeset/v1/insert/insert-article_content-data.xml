@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="insert-article_content-data" author="DariaC">
+
+        <insert tableName="article_content">
+            <column name="title" value="RBA analysis shows how many borrowers will struggle in 2023"/>
+            <column name="description"
+                    value="2023 is shaping up to be a tough year for borrowers. Mortgage rates have been increasing at the fastest pace on record, and many borrowers will face challenges when they roll off fixed rates this year."/>
+            <column name="content"
+                    value="New analysis from the Reserve Bank of Australia (RBA) suggests that while most borrowers will be able to handle this adjustment, some will struggle. This includes some borrowers who won't be able to make their higher repayments and others who will be unable to refinance.Mortgage rates have more than doubled over the past year, up 3.5 percentage points. While many borrowers continue to be shielded from higher repayments by fixed rate periods, the majority of these low rates will expire over the next year.Along with cost-of-living pressures from high inflation, 2023 is shaping to be a nervous year for many households.But how large are the risks for borrowers? Will repayments increase enough to force people to sell properties or go into default? And will there be significant numbers of ‘mortgage prisoners’ who aren’t able to refinance for a better deal?The RBA's most recent Financial Stability Review looks at these risks in depth."/>
+        </insert>
+        <insert tableName="article_content">
+            <column name="title" value="‘Byron in Brisbane’ hits the market with $4m+ price tag"/>
+            <column name="description" value="A house that was ‘Byron Bay-inspired’ has hit the market in Brisbane with an expected $4 million-plus price tag — hippie hauler not included."/>
+            <column name="content" value="Located in the so-called ‘Golden Triangle’ at the Grange, the resort-style Queenslander has been dubbed ‘Byron Bay in Brisbane’, and has been transformed from a single level 1950s house into a two-level statement home with a Calile Hotel-inspired pool.
+
+Its Instagram page ‘byron.in.brisbane’ has over 5700 followers.
+
+MORE: Versace, views: Qld’s top dunnies revealed
+
+Fitness juggernaut lists apartments bought during pandemic for sale
+
+Cairns clanger fetches $391,000 at auction
+
+
+"/>
+        </insert>
+        <insert tableName="article_content">
+            <column name="title" value="Roseville’s mid-century gem ‘Tourmaline’ sells for $5.25m"/>
+            <column name="description" value="Lochtenberg, a geologist by training who has a background in property development in the healthcare sector, named the home after his favourite rock."/>
+            <column name="content" value="A retro Roseville residence steeped in architectural history has changed hands for $5.25m through Lisa Davies of Ray White Upper North Shore.
+
+During the expressions of interest campaign the property was marketed with a $5m to $5.5m price guide.
+
+Tourmaline at 12 Kimo St was built in 1959, designed by John James, the renowned Sydney architect behind the iconic modernist Reader’s Digest building in Surry Hills.
+
+The vast four-bedroom home, which had a sympathetic renovation in 2010 by the vendors, Jennifer Cummins and Michael Lochtenberg, sits on a grand 3827sq m parcel surrounded by bushland and bordering Lane Cove National Park."/>
+        </insert>
+        <insert tableName="article_content">
+            <column name="title" value="Colonial style Bayview home offered for first time in 30 years with $7m hopes"/>
+            <column name="description" value="The longtime Bayview home of the late businessman John Valder and his late wife, Kay has been listed. "/>
+            <column name="content" value="The longtime Bayview home of the late stockbroker John Valder and his widow Kay has been listed for sale following her recent death.
+
+The Colonial-style mansion sits in privacy on 4390sq m of landscaped, north-facing grounds with gun-barrel views stretching down Pittwater.
+
+All four large upstairs bedrooms open to Juliet water-view balconies.
+
+Greg Griffin and Nicholas Hayes from Belle Property Avalon have $7m hopes for its May 25 auction.The former Liberal Party president had been influential the year before in seeing off Queensland premier Sir Joh Bjelke-Petersen’s push for prime ministership while holding firm in his support for then federal opposition leader John Howard against Andrew Peacock."/>
+        </insert>
+
+
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="insert-image_capture-data" author="DariaC">
+        <insert tableName="image_capture">
+            <column name="capture" value="First article photo"/>
+            <column name="path" value="/article/AnnaMarian/a1.webp"/>
+        </insert>
+        <insert tableName="image_capture">
+            <column name="capture" value="2nd article photo"/>
+            <column name="path" value="/article/AnnaMarian/a2.webp"/>
+        </insert>
+        <insert tableName="image_capture">
+            <column name="capture" value="3rd article photo"/>
+            <column name="path" value="/article/AnnaMarian/a3.webp"/>
+        </insert>
+        <insert tableName="image_capture">
+            <column name="capture" value="4th article photo"/>
+            <column name="path" value="/article/AnnaMarian/a4.webp"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="insert-article-data" author="DariaC">
+
+        <insert tableName="article">
+            <column name="creation_date" valueDate="now()"/>
+            <column name="last_updated" valueDate="now()"/>
+            <column name="is_published" valueBoolean="true"/>
+            <column name="article_content_id" value="1"/>
+            <column name="image_id" value="1"/>
+            <column name="user_id" value="1"/>
+        </insert>
+        <insert tableName="article">
+            <column name="creation_date" valueDate="now()"/>
+            <column name="last_updated" valueDate="now()"/>
+            <column name="is_published" valueBoolean="true"/>
+            <column name="article_content_id" value="2"/>
+            <column name="image_id" value="2"/>
+            <column name="user_id" value="1"/>
+        </insert>
+        <insert tableName="article">
+            <column name="creation_date" valueDate="now()"/>
+            <column name="last_updated" valueDate="now()"/>
+            <column name="is_published" valueBoolean="true"/>
+            <column name="article_content_id" value="3"/>
+            <column name="image_id" value="3"/>
+            <column name="user_id" value="1"/>
+        </insert>
+        <insert tableName="article">
+            <column name="creation_date" valueDate="now()"/>
+            <column name="last_updated" valueDate="now()"/>
+            <column name="is_published" valueBoolean="true"/>
+            <column name="article_content_id" value="4"/>
+            <column name="image_id" value="4"/>
+            <column name="user_id" value="1"/>
+        </insert>
+
+
+    </changeSet>
+</databaseChangeLog>

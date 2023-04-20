@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+   http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <!-- create -->
+    <include file="db.changelog/changeset/v1/create/create-article-table.xml"/>
+    <include file="db.changelog/changeset/v1/create/create-article_content-table.xml"/>
+    <include file="db.changelog/changeset/v1/create/create-comment-table.xml"/>
+    <include file="db.changelog/changeset/v1/create/create-image_capture-table.xml"/>
+    <include file="db.changelog/changeset/v1/create/create-user-table.xml"/>
+
+    <!--    insert -->
+    <include file="db.changelog/changeset/v1/insert/insert-user-data.xml"/>
+    <include file="db.changelog/changeset/v1/insert/insert-image_capture-data.xml"/>
+    <include file="db.changelog/changeset/v1/insert/insert-article_content-data.xml"/>
+    <include file="db.changelog/changeset/v1/insert/insert-article-data.xml"/>
+    <include file="db.changelog/changeset/v1/insert/insert-comment-data.xml"/>
+
+</databaseChangeLog>
